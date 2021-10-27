@@ -1,0 +1,24 @@
+    .title-header {
+        padding-top: 3%;
+        padding-left: 5%;
+        font-family: 'Kanit', sans-serif;
+        font-size: 400%;
+    }
+    
+    p {
+        margin: 0;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
+    * {
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    body {
+        /* Set the height of the div to 
+       the entire screen */
+        height: 100vh;
+        /* linear-gradient syntax */
+        background-image: linear-gradient(rgb(152, 199, 240), rgb(30, 37, 70));
+    }
