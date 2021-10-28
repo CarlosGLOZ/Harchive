@@ -22,26 +22,40 @@
 
     <!--Link to stylesheet-->
     <link rel="stylesheet" href="./css/style.css">
+
+
 </head>
 
-<body id="lin_grad">
-    <h1 class="title-header">Harchive</h1>
+
+<body id="body">
+
+    <!--Reference to JS script-->
+    <script src="./sideNavMenu.js"></script>
 
     <!--Nav Menu-->
-    <div class="navbar">
-        <a href="./index.html">MENU</a>
+    <div id="mySidenav" class="sidenav">
 
-        <div class="subnav">
-            <button>USER</a>
-            <div>
-                <a href="./profile.html">PROFILE</a>
-                <a href="./harchive.html">HARCHIVE</a>
-            </div>
-        </div>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+        </a>
+        <a href="./index.html">HOME</a>
+        <a href="./profile.html">USER</a>
+        <a href="./harchive.html">HARCHIVE</a>
     </div>
 
-    <p>test</p>
+
+    <span id="topBox">
+        <nobr>
+            <img id="menu-icon" src="./img/menu-icon.png" alt="test-menu-icon" onclick="openNav()">
+            <!--<h1 id="titleHeader">HARCHIVE</h1>-->
+        </nobr>
+    </span>
+
+    <!--Main Body-->
+    <div id="main">
+        <p>test</p>
+    </div>
 
 </body>
+
 
 </html>
