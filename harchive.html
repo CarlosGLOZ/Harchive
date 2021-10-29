@@ -17,9 +17,26 @@
 
     <!--Link to stylesheet-->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!--Reference to JS script-->
+    <script src="./sideNavMenu.js"></script>
 </head>
 
-<body>
+<body id="body">
+    <!--Nav Menu and Logo-->
+    <div id="mySidenav" class="sidenav">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+        </a>
+        <a href="./index.html">HOME</a>
+        <a href="./profile.html">USER</a>
+        <a href="./harchive.html">HARCHIVE</a>
+    </div>
+
+    <span id="menu-icon-bckgrnd">
+        <img id="menu-icon" src="./img/menu-icon-solo.png" alt="menu-icon-solo" onclick="openNav()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </span>
+    <img id="logo-icon" src="./img/menu-icon-logo.png" alt="logo-icon">
 
 </body>
 

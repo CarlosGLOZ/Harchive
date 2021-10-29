@@ -1,17 +1,27 @@
-    #topBox #titleHeader {
-        padding-top: 0%;
-        padding-left: 0%;
-        margin: 0%;
-        font-family: 'Kanit', sans-serif;
-        font-size: 400%;
+    #menu-icon-bckgrnd {
+        height: 100%;
+        background-color: rgba(17, 17, 17, 0.521);
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 4.5%;
     }
     
-    #topBox #menu-icon {
-        height: 5%;
+    #menu-icon {
+        width: 3%;
+        margin-left: 0.7%;
+        padding-top: 1%;
+        margin-top: 0%;
+        border-top: 0px;
+        position: fixed;
     }
     
-    #topBox {
-        white-space: nowrap;
+    #logo-icon {
+        height: 10%;
+        padding-top: 1%;
+        padding-left: 6%;
+        margin-top: 0%;
+        border-top: 0px;
     }
     
     p {
@@ -25,13 +35,12 @@
     }
     
     body {
+        padding-top: 0%;
         /* Set the height of the div to 
        the entire screen */
         height: 100vh;
         /* linear-gradient syntax */
         background-image: linear-gradient(rgb(152, 199, 240), rgb(30, 37, 70));
-        margin-top: 2%;
-        margin-left: 2%;
     }
     /*Navigation Menu*/
     /* The side navigation menu */
@@ -52,7 +61,7 @@
         /* Black*/
         overflow-x: hidden;
         /* Disable horizontal scroll */
-        padding-top: 60px;
+        padding-top: 20px;
         /* Place content 60px from the top */
         transition: 0.5s;
         /* 0.5 second transition effect to slide in the sidenav */
@@ -87,6 +96,8 @@
         transition: margin-left .5s;
         padding: 25px;
         font-size: 50px;
+        margin-top: 2%;
+        margin-left: 2%;
     }
     /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
     
